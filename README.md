@@ -13,3 +13,7 @@ def find_user(users, uid):
     for u in users:
         if u["id"] == uid:
             return u
+
+
+def divide(a, b):
+    return a / b
